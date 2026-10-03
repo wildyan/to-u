@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Private archive for Nina" />
+    <title>to nina</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23ffffff'/%3E%3Cpath d='M10 20h44v24H10zM10 20l22 18 22-18' fill='none' stroke='%23000000' stroke-width='3'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead" aria-label="Message archive header">
+        <h1>The Unsent</h1>
+        <p>alias di sini aja biar ga menuhin room chat</p>
+        <p2>2 messages found</p2>
+      </header>
+
+      <main class="archive" id="archive" aria-live="polite">
+        <article
+          class="message-card"
+          tabindex="0"
+          role="button"
+          aria-label="Open message 1 to Nina"
+          data-message="1"
+        >
+          <div class="card-header">
+            <span class="abc-tag">ABC</span>
+            <span class="header-label">To: Nina</span>
+            <span class="envelope" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M2.5 6.5h19v11h-19zM2.5 6.5l9.5 7 9.5-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter"/>
+              </svg>
+            </span>
+          </div>
+
+          <div class="card-body">
+            <p>
+              <!-- REPLACE WITH MESSAGE 1 PREVIEW -->
+              anyway i appreciate u if u somehow actually took the time to read all that penting gapenting di sebelah 😹
+
+
+              
+              
+              read more...
+            </p>
+          </div>
+
+          <div class="card-footer">
+            <button type="button" class="read-button" aria-label="Read message 1">read</button>
+            <span class="card-count">01 / 02</span>
+          </div>
+        </article>
+
+        <article
+          class="message-card"
+          tabindex="0"
+          role="button"
+          aria-label="Open message 2 to Nina"
+          data-message="2"
+        >
+          <div class="card-header">
+            <span class="abc-tag">ABC</span>
+            <span class="header-label">To: Nina</span>
+            <span class="envelope" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M2.5 6.5h19v11h-19zM2.5 6.5l9.5 7 9.5-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter"/>
+              </svg>
+            </span>
+          </div>
+
+          <div class="card-body">
+            <p>
+              <!-- REPLACE WITH MESSAGE 2 PREVIEW -->
+              gue rasa sekarang gue mulai ngerti kenapa banyak hal yg gue lakuin mungkin terasa overwhelming buat lo.
+
+waktu itu gue ngeliat semuanya dari cara gue sendiri
+
+read more...
+            </p>
+          </div>
+
+          <div class="card-footer">
+            <button type="button" class="read-button" aria-label="Read message 2">read</button>
+            <span class="card-count">02 / 02</span>
+          </div>
+        </article>
+      </main>
+
+      <section class="message-view hidden" id="message-view" aria-live="polite" aria-hidden="true">
+        <div class="read-panel">
+          <header class="read-header">
+            <h2>TO: NINA</h2>
+          </header>
+
+          <div class="read-counter" id="read-counter">01 / 02</div>
+
+          <div class="rule" aria-hidden="true"></div>
+
+          <div class="read-body" id="read-body"></div>
+
+          <div class="rule" aria-hidden="true"></div>
+
+          <div class="read-nav">
+            <button type="button" class="back-button" aria-label="Go back to the archive">← back</button>
+            <button type="button" class="next-button hidden" aria-label="Go to next message">next message →</button>
+            <button type="button" class="prev-button hidden" aria-label="Go to previous message">← previous message</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
