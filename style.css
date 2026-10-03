@@ -74,7 +74,6 @@ button {
   cursor: pointer;
   opacity: 0;
   transform: translateY(6px);
-  animation: card-in 0.5s ease forwards;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
