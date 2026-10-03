@@ -1,7 +1,7 @@
 const messages = [
   {
     id: 1,
-    full: `anyway i appreciate u if u somehow actually took the time to read all that penting gapenting di atas 😹
+    full: `anyway i appreciate u if u somehow actually took the time to read all that penting gapenting di sebelah 😹
 
 itu juga bukan sebenernya hal yg paling pengen gue lurusin antara kita. more like a bridge into whatever our next talk is, biar at least u ngerti how i saw things and where my head was coming from waktu itu.
 
